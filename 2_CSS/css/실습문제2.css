@@ -1,0 +1,29 @@
+.nav {
+  width: 100%;
+  border: solid white;
+  background-color: white;
+  position: fixed;
+}
+.top {
+}
+#logo {
+  font-weight: bold;
+}
+.heading1 {
+  background-color: red;
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+}
+.heading2 {
+  background-color: purple;
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+}
+.heading3 {
+  background-color: yellow;
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+}
