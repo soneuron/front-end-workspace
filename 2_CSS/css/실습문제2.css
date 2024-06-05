@@ -3,10 +3,13 @@
   border: solid white;
   background-color: white;
   position: fixed;
-}
-.top {
+  display: flex;
+  justify-content: space-between;
 }
 #logo {
+  font-weight: bold;
+}
+h1 {
   font-weight: bold;
 }
 .heading1 {
@@ -14,16 +17,19 @@
   height: 100vh;
   align-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .heading2 {
   background-color: purple;
   height: 100vh;
   align-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .heading3 {
   background-color: yellow;
   height: 100vh;
   align-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }

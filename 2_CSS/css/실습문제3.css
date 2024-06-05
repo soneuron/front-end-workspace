@@ -1,0 +1,27 @@
+#logo {
+  position: fixed;
+  width: 350px;
+  height: 100%;
+}
+header {
+  background-image: url(../../resources/background_720.jpg);
+  position: fixed;
+  width: 350px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-content: space-between;
+}
+header h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+header nav {
+  color: white;
+}
