@@ -12,4 +12,5 @@ body {
   border-radius: 20%;
 }
 .square {
+  justify-content: space-between;
 }
