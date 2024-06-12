@@ -17,6 +17,17 @@
       if (id === "admin") {
         console.log("관리자입니다.");
       }
+
+      // console.log("---- Q1 ----");
+      // const id + prompt("아이디 입력");
+      // if (id ==="admin") {
+      //   console.log("관리자입니다.");
+      // }
+
+      // switch (id) {
+      //   case "admin":
+      //     console.log("관리자입니다.");
+      //  }
     </script>
 
     <!-- 
@@ -32,6 +43,15 @@
       } else {
         console.log("불합격");
       }
+
+      // console.log("---- Q2 ----");
+      // const score1 = prompt("필기 시험 성적");
+      // const score2 = prompt("실기 시험 성적");
+      // if (score1 >= 80 && score2 >= 80) {
+      // } console.log("합격") {
+      // } else {
+      //   console.log("불합격");
+      // }
     </script>
 
     <!-- 
@@ -45,6 +65,14 @@
       } else {
         console.log("10과 20의 사이에 있지 않습니다");
       }
+
+      // console.log("---- Q3 ----");
+      // const number = prompt("정수 입력");
+      // if (number > 10 && number < 20) {
+      // console.log("10과 20 사이에 있습니다");
+      // } else {
+      //   console.log("10과 20 사이에 있지 않습니다");
+      // }
     </script>
 
     <!-- 
@@ -58,6 +86,14 @@
       } else {
         console.log("입장료는 10,000원입니다.");
       }
+
+      // console.log("---- Q4 ----");
+      // const age = prompt("나이");
+      // if (age >= 65 || age < 8) {
+      //   console.log("입장료는 무료입니다.");
+      // } else {
+      //   console.log("입장료는 10,000원입니다.");
+      // }
     </script>
 
     <!-- 
@@ -66,6 +102,7 @@
             예) 12월은 겨울입니다.
      -->
     <script>
+      // if -> 중첩 가능! 주의! 가급적으로 중첩 쓰지 않는 것을 추천!
       console.log("---- Q5 ----");
       const season = prompt("몇 월인지 입력하세요");
       if (season > 2 && season < 6) {
@@ -77,6 +114,65 @@
       } else {
         console.log("겨울입니다.");
       }
+
+      // if -> 중첩 가능! 주의! 가급적으로 중첩 쓰지 않는 것을 추천!
+
+      // console.log("---- Q5 ----");
+      // const month = Nmber(prompt("월 입력"));
+      // if(3<= month && month<= 5) {
+      // console.log("봄"); {
+      // } else if (6<= month && month<= 8) {
+      //   console.log("여름");
+      // } else if (9<= month && month<= 11) {
+      //   console.log("가을");
+      // } else if (month===12 || (1<=month && month<=2)) {
+      // console.log("겨울");
+      // }
+
+      /*
+        console.log("---- Q5 ----");
+        const season = prompt("몇 월인지 입력하세요");
+        let season = "";
+        if (1<= month && month<=12){
+          if (season > 2 && season < 6) {
+            season = "봄";
+          } else if (season > 5 && season < 9) {
+            season = "여름";
+          } else if (season > 8 && season < 12) {
+            season = "가을";
+          } else {
+            season = "겨울";
+          }
+            console.log(`${month}월은 ${season}입니다.`);
+        }
+
+        switch (month) {
+          case 3:
+          case 4:
+          case 5:
+            season = "봄";
+            break;
+          case 6:
+          case 7:
+          case 8:
+            season = "여름";
+            break;
+          case 9:
+          case 10:
+          case 11:
+            season = "가을";
+            break;
+          default:
+          case 12:
+          case 1:
+          case 2:
+            season = "겨울";
+            break;                         //생략 가능
+        }
+        if (season !== "" ){
+          console.log(`${month}월은 ${season}입니다.`);
+        }
+      */
     </script>
   </body>
 </html>
