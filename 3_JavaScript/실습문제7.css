@@ -1,0 +1,37 @@
+/*
+1. 그림 및 글자 중앙 정렬
+2. Click () -> background : pink, color : purple
+3. Restart -> background : purple, color : pink
+4. 그림 동그랗게 만들기
+*/
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px;
+  object-fit: cover;
+}
+button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#results {
+  font-style: italic;
+}

@@ -11,8 +11,8 @@
       const tel = ["010", "1234", "5678"];
       // 출력 예시 : 010-1234-5678
       console.log("---- Q1 ----");
-      tel.join();
-      console.log(tel);
+      const strTel = tel.join("-");
+      console.log(strTel);
     </script>
 
     <!-- Q2. 배열 함수들 활용!-->
@@ -39,12 +39,14 @@
       console.log(scores); // [30, 76, 82]
       scores.splice(0, 2);
       scores.unshift(30);
+      // scores.splice(0, 2, 30)
       console.log(scores);
       // 5)
       console.log("---- Q2-5 ----");
       console.log(scores); // [30, 50]
       scores.splice(1, 2);
       scores.push(50);
+      // scores.splice(1, 2, 50)
       console.log(scores);
     </script>
 
@@ -56,7 +58,11 @@
       console.log(pop);
       console.log(music[music.indexOf("OST")]);
       // ['팝송', '클래식', '재즈']
+      // const pop = music.slice(1, 4);
+      // console.log(pop);
       // ['OST']
+      // const music3 = music.slice(4);
+      // console.log(music3);
     </script>
 
     <!-- Q4. 해당 배열을 오름차순(작은 숫자 ~ 큰 숫자)으로 정렬해주세요  -->
