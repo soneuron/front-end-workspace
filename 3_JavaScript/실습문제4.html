@@ -19,23 +19,37 @@
     <!-- Q2. 1 ~ 1000 정수 중 3의 배수의 합계를 출력하세요 -->
     <script>
       console.log("---- Q2 ----");
-
+      let j = 0;
       for (let i = 1; i <= 1000; i++) {
         if (i % 3 === 0) {
+          j = j + i;
         }
       }
+      console.log(j);
+      /*
+      let l = 0;
+      for (let k = 1; k <= 333; k++) {
+        l = l + k;
+      }
+      console.log(3 * l);
+      */
     </script>
 
     <!-- Q3. 문자열의 문자들을 하나씩 출력하세요 -->
     <script>
       const str = "안녕하세요. 반갑습니다!";
       console.log("---- Q3 ----");
+      const strArr = "안녕하세요. 반갑습니다!".split("");
+      console.log(strArr);
     </script>
 
     <!-- Q4. 배열 값 중 최대값을 출력하세요 -->
     <script>
       const nums = [3, 7, 12, 5, 3];
       console.log("---- Q4 ----");
+      console.log(nums[2]);
+      // nums.sort((a, b) => a - b);
+      // console.log(nums[nums.length - 1]);
     </script>
 
     <!-- Q5. 1 ~ 10 정수 중 소수(1과 자기자신)를 출력하세요
