@@ -3,7 +3,7 @@
 해당조건이 맞을경우 'OK!' 표시와 함께 '초록색으로 표시'
 */
 const userId = document.querySelector("#userId");
-const userIdSpan = document.querySelector("#userId+Span");
+const userIdSpan = document.querySelector("#userIdSpan");
 const userPwd = document.querySelector("#userPwd");
 const userPwdSpan = document.querySelector("#userPwdSpan");
 const userPwdCheck = document.querySelector("#userPwdCheck");
